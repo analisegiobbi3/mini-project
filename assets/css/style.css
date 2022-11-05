@@ -1,37 +1,43 @@
-header{
-    text-align: right;
-    background-color: rgb(234, 218, 125);
-    color: white;
-    height: 75px;
-}
-
 body{
     text-align: center;
+}
 
+nav{
+    /* controls design of the upper nav bar */
+    background-color: rgb(131 179 120);
+    height: 70px;
+    text-align: right;
+    line-height: 10px;
+    /* figure out how to move text to center in a more efficient way than line height */
+}
+
+header,
+footer{
+    /* adds color and alignment to board on top and bottom of page */
+    text-align: center;
+    background-color: rgb(101 132 93);
+    border-bottom: 5px solid rgb(101 132 93);
 }
 
 li{
+    /* aligns the text links in the nav bar */
     display: inline;
     list-style-type: none;
     font-size: 20px;
     padding: 10px;
     color: black;
-    margin-top: 10px;
 }
-
-footer{
-    text-align: center;
-    background-color: rgb(234, 218, 125) ;
-}
-
-.border{
-    background-color: rgb(132, 229, 105);
-    height: 20px;
-}
-
 .section1{
     text-align: center;
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section2{
+    text-align: center;
+    font-size: large;
+    font-family: fantasy;
+    border-top: 5px solid rgb(153, 200, 142);
+    background-color: darkolivegreen;
 }
 
